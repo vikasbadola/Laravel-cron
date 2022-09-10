@@ -9,7 +9,7 @@
 
 ## Laravel Framework 9.21.3 - Cron job to import data from api.
 
-In this project there is an implementation of Laravel cron job for accessing an API and saving data into database. 
+In this project there is an implementation of Laravel cron job for accessing an API and saving data into database. There is one more command to generate a report into csv format and save it into the public/download folder.
 
 ## Requirements
 
@@ -34,6 +34,7 @@ php artisan migrate
 php artisan fetch:data
 
 php artisan export:data
+(It will export csv file into public/download folder)
 
 ```
 - Run the command as per schedule, every 20 seconds.
